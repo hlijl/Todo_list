@@ -14,7 +14,7 @@
 .todo__title {
     text-align: center;
     font-size: 24px;
-    /*     font-weight: 600; */
+    font-weight: 600;
     line-height: 1.2;
 }
 
@@ -47,4 +47,20 @@
         opacity: 0;
         visibility: hidden;
     }
+}
+.todo__list,
+.todo__empty-message {
+    &:empty {
+        display: none;
+    }
+}
+
+.todo__list {
+    --todoListRowGap: 8px;
+    display: grid;
+    row-gap: var(--todoListRowGap);
+}
+.todo__empty__message {
+    text-align: center;
+    color: var(--color-gray-4);
 }
