@@ -63,6 +63,11 @@
     background: url('../../icons/icon-check_white.svg') center/contain no-repeat;
   }
 }
+.todo-item.completed {
+
+  background-color: #d7f8d7;
+
+}
 
 .todo-item__label {
   width: 100%;
@@ -95,4 +100,7 @@
   * {
     pointer-events: none;
   }
+}
+.todo-item.completed {
+  background-color: #d7f8d7;
 }

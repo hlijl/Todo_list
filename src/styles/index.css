@@ -7,3 +7,8 @@
 @import 'components/field.css';
 @import 'components/todo.css';
 @import 'components/todo-item.css';
+body {
+
+    background: rgb(179, 182, 235);
+
+}
